@@ -1,0 +1,33 @@
+body {
+    background-color: #1D4221;
+    font-family: "Bai Jamjuree", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; /*novo*/
+    height: 700px; 
+    margin: 0;
+}
+
+main {
+    text-align: center;
+    max-width: 90%; /*novo*/
+}
+
+img {
+    max-width: 80%; /*novo*/
+}
+
+button {
+    background-color: #64A712;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo {
+    display: none; /*novo*/
+}
+
+.passo.ativo {
+    display: block; /*novo*/
+}
